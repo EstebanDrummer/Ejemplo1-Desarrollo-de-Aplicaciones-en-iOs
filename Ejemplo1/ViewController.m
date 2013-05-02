@@ -2,8 +2,8 @@
 //  ViewController.m
 //  Ejemplo1
 //
-//  Created by Esteban Yepes on 1/05/13.
-//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
+//  Created by Grupo 2 Seminario de Android
+//  Copyright (c) 2013 __SeminarioAndroid__. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -14,6 +14,17 @@
 
 @implementation ViewController
 
+//implementa los sets y gets de las clases
+@synthesize eti;
+@synthesize boton;
+
+//implementación del metodo de la acción del botón
+-(IBAction)accion:(id)sender{
+    eti.text=@"ya cambieeeee :D";
+}
+
+
+//autogenerado
 - (void)viewDidLoad
 {
     [super viewDidLoad];
